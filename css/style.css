@@ -1,7 +1,36 @@
-h1 {
-    text-align: center;
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
-p {
-    text-align: center;
+.topo {
+    background-color: rgb(64, 2, 134);
+    height: 200px;
+    width: 100%;
+    position: absolute;
+}
+
+.nome {
+    color: rgb(255, 255, 255);
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.contato {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: right;
+    margin-right: 300px;
+    margin-top: -55px;
+}
+
+.sobre {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -55px;
 }
