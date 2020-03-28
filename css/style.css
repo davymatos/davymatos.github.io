@@ -2,6 +2,9 @@ body {
     margin: 0;
 }
 
+
+/*Componentes da Tela*/
+
 .topo {
     background-color: rgba(64, 2, 134, 0.950);
     height: 190px;
@@ -31,10 +34,15 @@ nav.topo a {
     text-decoration: none;
 }
 
-nav.topo a:hover {
-    color: rgb(180, 180, 180);
-    transition: 1s;
+.conteudo {
+    height: 450px;
+    width: 100%;
+    margin-top: 230px;
+    position: absolute;
 }
+
+
+/*Itens da Tela*/
 
 .nome {
     color: rgb(255, 255, 255);
@@ -43,13 +51,6 @@ nav.topo a:hover {
     text-align: left;
     left: 130px;
     top: 40px;
-    position: absolute;
-}
-
-.conteudo {
-    height: 450px;
-    width: 100%;
-    margin-top: 230px;
     position: absolute;
 }
 
@@ -85,4 +86,36 @@ nav.topo a:hover {
     left: 140px;
     top: 120px;
     position: absolute;
+}
+
+
+/*Respansividade*/
+
+@media(max-width: 1080px) {
+    .imge {
+        left: 30%;
+        top: 450px;
+    }
+}
+
+@media(max-width: 900px) {
+    .imge {
+        left: 30%;
+        top: 450px;
+    }
+    .topo {
+        height: 250px;
+    }
+    nav.topo ul {
+        list-style: none;
+        position: absolute;
+        text-align: right;
+        top: 130px;
+        right: 60%px;
+    }
+    nav.topo li {
+        display: inline-block;
+        padding: 10px;
+        margin: 5px;
+    }
 }
