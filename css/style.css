@@ -5,20 +5,26 @@ body {
 
 /*Componentes da Tela*/
 
-.topo {
-    background-color: rgba(64, 2, 134, 0.950);
-    height: 190px;
+nav.topo {
+    background-color: rgb(0, 0, 0);
+    height: 600px;
     width: 100%;
     position: absolute;
     display: block;
+}
+
+.img {
+    opacity: 30%;
+    height: 600px;
+    width: 100%;
 }
 
 nav.topo ul {
     list-style: none;
     position: absolute;
     text-align: right;
-    top: 50px;
-    right: 200px;
+    top: 10px;
+    right: 130px;
 }
 
 nav.topo li {
@@ -28,16 +34,28 @@ nav.topo li {
 }
 
 nav.topo a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.imgi {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 130px;
+    border-style: inset;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-radius: 100px;
 }
 
 .conteudo {
     height: 450px;
     width: 100%;
-    margin-top: 230px;
+    top: 600px;
     position: absolute;
 }
 
@@ -47,10 +65,10 @@ nav.topo a {
 .nome {
     color: rgb(255, 255, 255);
     font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     text-align: left;
-    left: 130px;
-    top: 40px;
+    left: 37%;
+    top: 320px;
     position: absolute;
 }
 
@@ -94,28 +112,6 @@ nav.topo a {
 @media(max-width: 1080px) {
     .imge {
         left: 30%;
-        top: 450px;
-    }
-}
-
-@media(max-width: 900px) {
-    .imge {
-        left: 30%;
-        top: 450px;
-    }
-    .topo {
-        height: 250px;
-    }
-    nav.topo ul {
-        list-style: none;
-        position: absolute;
-        text-align: right;
-        top: 130px;
-        right: 60%px;
-    }
-    nav.topo li {
-        display: inline-block;
-        padding: 10px;
-        margin: 5px;
+        top: 370px;
     }
 }
