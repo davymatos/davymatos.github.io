@@ -7,7 +7,7 @@ body {
 
 nav.topo {
     background-color: rgb(0, 0, 0);
-    height: 600px;
+    height: 500px;
     width: 100%;
     position: absolute;
     display: block;
@@ -15,7 +15,7 @@ nav.topo {
 
 .img {
     opacity: 30%;
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -24,7 +24,7 @@ nav.topo ul {
     position: absolute;
     text-align: right;
     top: 10px;
-    right: 130px;
+    right: 100px;
 }
 
 nav.topo li {
@@ -55,7 +55,7 @@ nav.topo a {
 .conteudo {
     height: 450px;
     width: 100%;
-    top: 600px;
+    top: 520px;
     position: absolute;
 }
 
@@ -64,17 +64,17 @@ nav.topo a {
 
 .nome {
     color: rgb(255, 255, 255);
-    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
     text-align: left;
-    left: 37%;
+    left: 36%;
     top: 320px;
     position: absolute;
 }
 
 .titulo {
     color: rgb(50, 50, 50);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     font-size: 40px;
     left: 180px;
     top: 30px;
@@ -93,15 +93,15 @@ nav.topo a {
     width: 300px;
     height: 300px;
     position: absolute;
-    left: 65%;
-    top: 60px;
+    left: 10%;
+    top: 140px;
 }
 
 .info {
-    color: rgb(100, 100, 100);
+    color: rgb(41, 41, 41);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     font-size: 30px;
-    left: 140px;
+    left: 500px;
     top: 120px;
     position: absolute;
 }
@@ -110,8 +110,10 @@ nav.topo a {
 /*Respansividade*/
 
 @media(max-width: 1080px) {
-    .imge {
-        left: 30%;
-        top: 370px;
+    .info {
+        left: 450px;
+    }
+    nav.topo ul {
+        right: 80px;
     }
 }
