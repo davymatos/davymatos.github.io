@@ -78,6 +78,15 @@ nav.topo a {
     top: 140px;
 }
 
+.info {
+    color: rgb(41, 41, 41);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 33px;
+    left: 500px;
+    top: 120px;
+    position: absolute;
+}
+
 
 /*Componentes da Class .conteudo*/
 
@@ -86,6 +95,35 @@ nav.topo a {
     width: 100%;
     top: 980px;
     position: absolute;
+}
+
+.imgc {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 65%;
+    top: 140px;
+}
+
+.cont {
+    color: rgb(41, 41, 41);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 33px;
+    left: 10%;
+    top: 120px;
+    position: absolute;
+}
+
+
+/*Componentes da Class .conteudo*/
+
+.fim {
+    height: 200px;
+    width: 100%;
+    top: 1520px;
+    position: absolute;
+    background-color: black;
+    opacity: 90%;
 }
 
 
@@ -107,15 +145,6 @@ nav.topo a {
     font-size: 40px;
     left: 180px;
     top: 30px;
-    position: absolute;
-}
-
-.info {
-    color: rgb(41, 41, 41);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    font-size: 30px;
-    left: 500px;
-    top: 120px;
     position: absolute;
 }
 
