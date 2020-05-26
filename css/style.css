@@ -155,7 +155,20 @@ nav.topo a {
     .info {
         left: 450px;
     }
+    .cont {
+        right: 450px;
+    }
+    .imgc {
+        left: 580px;
+    }
     nav.topo ul {
         right: 80px;
+    }
+    .conteudo {
+        top: 1020px;
+    }
+    .fim {
+        margin-top: 70px;
+        bottom: 0%;
     }
 }
