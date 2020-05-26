@@ -52,10 +52,39 @@ nav.topo a {
     border-radius: 100px;
 }
 
-.conteudo {
+
+/*Componentes da Class .sobre*/
+
+.sobre {
     height: 450px;
     width: 100%;
     top: 520px;
+    position: absolute;
+}
+
+.imgf {
+    width: 55px;
+    height: 55px;
+    top: 60px;
+    left: 130px;
+    position: absolute;
+}
+
+.imge {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 140px;
+}
+
+
+/*Componentes da Class .conteudo*/
+
+.conteudo {
+    height: 450px;
+    width: 100%;
+    top: 980px;
     position: absolute;
 }
 
@@ -79,22 +108,6 @@ nav.topo a {
     left: 180px;
     top: 30px;
     position: absolute;
-}
-
-.imgf {
-    width: 50px;
-    height: 50px;
-    top: 60px;
-    left: 130px;
-    position: absolute;
-}
-
-.imge {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 10%;
-    top: 140px;
 }
 
 .info {
