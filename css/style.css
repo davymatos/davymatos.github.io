@@ -89,7 +89,6 @@ nav.topo a {
     position: absolute;
     text-align: justify;
     text-indent: 6%;
-    /*text-indent: 5%;*/
     margin-right: 10%;
 }
 
@@ -154,7 +153,8 @@ nav.topo a {
         text-align: justify;
         left: 150px;
         right: 30px;
-        line-height: 35px;
+        line-height: 40px;
+        font-size: 35px;
     }
     .imge {
         opacity: 0%;
@@ -163,7 +163,7 @@ nav.topo a {
         right: 80px;
     }
     .conteudo {
-        top: 1090px;
+        top: 1190px;
     }
     .fim {
         margin-top: 70px;
