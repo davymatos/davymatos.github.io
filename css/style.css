@@ -119,8 +119,38 @@ nav.topo a {
     width: 100%;
     top: 1650px;
     position: absolute;
-    background-color: black;
-    opacity: 90%;
+}
+
+
+/*Componentes da Class .conteudo*/
+
+.insta {
+    height: 40px;
+    left: 350px;
+    top: 100px;
+    position: absolute;
+    opacity: 92%;
+}
+
+.link {
+    height: 45px;
+    left: 650px;
+    top: 100px;
+    position: absolute;
+    opacity: 92%;
+}
+
+.git {
+    height: 50px;
+    left: 950px;
+    top: 100px;
+    position: absolute;
+    opacity: 92%;
+}
+
+.autor {
+    position: absolute;
+    top: 200px;
 }
 
 
@@ -169,5 +199,14 @@ nav.topo a {
         margin-top: 70px;
         bottom: 0%;
         height: 400px;
+    }
+    .insta {
+        left: 250px;
+    }
+    .link {
+        left: 450px;
+    }
+    .git {
+        left: 650px;
     }
 }
