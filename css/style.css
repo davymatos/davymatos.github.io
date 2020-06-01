@@ -111,8 +111,38 @@ nav.topo a {
     position: absolute;
 }
 
+.box {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-style: inset;
+    border-width: 5px;
+    top: 200px;
+    left: 100px;
+}
 
-/*Componentes da Class .conteudo*/
+.box2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-style: inset;
+    border-width: 5px;
+    top: 200px;
+    left: 500px;
+}
+
+.box3 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-style: inset;
+    border-width: 5px;
+    top: 200px;
+    left: 900px;
+}
+
+
+/*Componentes da Class .fim*/
 
 .fim {
     height: 200px;
@@ -121,12 +151,9 @@ nav.topo a {
     position: absolute;
 }
 
-
-/*Componentes da Class .conteudo*/
-
 .insta {
     height: 40px;
-    left: 350px;
+    left: 340px;
     top: 100px;
     position: absolute;
     opacity: 92%;
@@ -134,7 +161,7 @@ nav.topo a {
 
 .link {
     height: 45px;
-    left: 650px;
+    left: 640px;
     top: 100px;
     position: absolute;
     opacity: 92%;
@@ -142,7 +169,7 @@ nav.topo a {
 
 .git {
     height: 50px;
-    left: 950px;
+    left: 940px;
     top: 100px;
     position: absolute;
     opacity: 92%;
@@ -181,7 +208,7 @@ nav.topo a {
 @media(max-width: 1080px) {
     .info {
         text-align: justify;
-        left: 150px;
+        left: 80px;
         right: 30px;
         line-height: 40px;
         font-size: 35px;
@@ -196,7 +223,7 @@ nav.topo a {
         top: 1190px;
     }
     .fim {
-        margin-top: 70px;
+        margin-top: 50px;
         bottom: 0%;
         height: 400px;
     }
@@ -208,5 +235,20 @@ nav.topo a {
     }
     .git {
         left: 650px;
+    }
+    .box {
+        height: 250px;
+        width: 250px;
+        left: 60px;
+    }
+    .box2 {
+        height: 250px;
+        width: 250px;
+        left: 360px;
+    }
+    .box3 {
+        height: 250px;
+        width: 250px;
+        left: 660px;
     }
 }
