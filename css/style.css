@@ -197,7 +197,7 @@ nav.topo a {
     color: rgb(50, 50, 50);
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     font-size: 40px;
-    left: 180px;
+    left: 200px;
     top: 30px;
     position: absolute;
 }
@@ -208,13 +208,19 @@ nav.topo a {
 @media(max-width: 1080px) {
     .info {
         text-align: justify;
-        left: 80px;
-        right: 30px;
+        left: 100px;
+        right: 5px;
         line-height: 40px;
         font-size: 35px;
     }
     .imge {
         opacity: 0%;
+    }
+    .imgf {
+        left: 95px;
+    }
+    .titulo {
+        left: 160px;
     }
     nav.topo ul {
         right: 80px;
