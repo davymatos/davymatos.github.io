@@ -195,12 +195,28 @@ nav.topo a {
 }
 
 .titulo {
-    color: rgb(0, 0, 0);
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.6);
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-    font-size: 40px;
+    cursor: pointer;
     left: 200px;
-    top: 30px;
+    top: 20px;
     position: absolute;
+}
+
+.titulo::before {
+    content: "SOBRE";
+    position: absolute;
+    color: #000000;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.titulo:hover::before {
+    width: 100%;
 }
 
 
