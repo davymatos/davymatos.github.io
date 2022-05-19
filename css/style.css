@@ -183,6 +183,30 @@ div.box3 p {
     font-size: 18px;
 }
 
+.box4 {
+    position: absolute;
+    height: 300px;
+    width: 1100px;
+    border-style: inset;
+    border-color: rgb(200, 200, 200);
+    border-width: 5px;
+    top: 570px;
+    left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+div.box4 h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.box4 p {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 18px;
+}
+
 .titulo2 {
     font-size: 48px;
     color: rgba(0, 0, 0, 0.6);
@@ -199,7 +223,7 @@ div.box3 p {
 .fim {
     height: 200px;
     width: 100%;
-    top: 1770px;
+    top: 2170px;
     position: absolute;
 }
 
@@ -317,14 +341,32 @@ div.box3 p {
         width: 250px;
         left: 60px;
     }
+    div.box p {
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        margin: 18px;
+        font-size: 16px;
+    }
     .box2 {
         height: 250px;
         width: 250px;
         left: 360px;
     }
+    div.box2 p {
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        margin: 18px;
+        font-size: 16px;
+    }
     .box3 {
         height: 250px;
         width: 250px;
         left: 660px;
+    }
+    div.box3 p {
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        margin: 18px;
+        font-size: 16px;
     }
 }
