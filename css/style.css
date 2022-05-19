@@ -47,7 +47,7 @@ nav.topo a {
     left: 40%;
     top: 200px;
     border-style: inset;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(200, 200, 200);
     border-width: 5px;
     border-radius: 100px;
 }
@@ -58,13 +58,13 @@ nav.topo a {
 .sobre {
     height: 450px;
     width: 100%;
-    top: 680px;
+    top: 700px;
     position: absolute;
 }
 
 .imgf {
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     top: 60px;
     left: 130px;
     position: absolute;
@@ -85,7 +85,7 @@ nav.topo a {
     font-size: 28px;
     line-height: 48px;
     left: 500px;
-    top: 118px;
+    top: 160px;
     position: absolute;
     text-align: justify;
     text-indent: 6%;
@@ -95,12 +95,10 @@ nav.topo a {
 
 /*Componentes da Class .conteudo*/
 
-
-/*
 .conteudo {
     height: 450px;
     width: 100%;
-    top: 1130px;
+    top: 1270px;
     position: absolute;
 }
 
@@ -118,9 +116,23 @@ nav.topo a {
     height: 300px;
     width: 300px;
     border-style: inset;
+    border-color: rgb(200, 200, 200);
     border-width: 5px;
     top: 200px;
     left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+div.box h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.box p {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 18px;
 }
 
 .box2 {
@@ -128,9 +140,23 @@ nav.topo a {
     height: 300px;
     width: 300px;
     border-style: inset;
+    border-color: rgb(200, 200, 200);
     border-width: 5px;
     top: 200px;
     left: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+div.box2 h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.box2 p {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 18px;
 }
 
 .box3 {
@@ -138,11 +164,34 @@ nav.topo a {
     height: 300px;
     width: 300px;
     border-style: inset;
+    border-color: rgb(200, 200, 200);
     border-width: 5px;
     top: 200px;
     left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
-*/
+
+div.box3 h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.box3 p {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 18px;
+}
+
+.titulo2 {
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    cursor: pointer;
+    left: 200px;
+    top: 20px;
+    position: absolute;
+}
 
 
 /*Componentes da Class .fim*/
@@ -150,7 +199,7 @@ nav.topo a {
 .fim {
     height: 200px;
     width: 100%;
-    top: 1170px;
+    top: 1770px;
     position: absolute;
 }
 
@@ -243,10 +292,10 @@ nav.topo a {
         right: 80px;
     }
     .conteudo {
-        top: 1190px;
+        top: 1290px;
     }
     .fim {
-        top: 1270px;
+        top: 1770px;
         margin-top: 55px;
         bottom: 0%;
         height: 400px;
@@ -263,7 +312,6 @@ nav.topo a {
     .git {
         left: 650px;
     }
-    /*
     .box {
         height: 250px;
         width: 250px;
@@ -279,5 +327,4 @@ nav.topo a {
         width: 250px;
         left: 660px;
     }
-    */
 }
