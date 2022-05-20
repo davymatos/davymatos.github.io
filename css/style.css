@@ -319,7 +319,7 @@ div.box4 p {
         top: 1290px;
     }
     .fim {
-        top: 1770px;
+        top: 2070px;
         margin-top: 55px;
         bottom: 0%;
         height: 400px;
@@ -364,6 +364,17 @@ div.box4 p {
         left: 660px;
     }
     div.box3 p {
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        margin: 18px;
+        font-size: 16px;
+    }
+    .box4 {
+        height: 250px;
+        width: 850px;
+        left: 60px;
+    }
+    div.box4 p {
         text-align: justify;
         color: rgb(0, 0, 0);
         margin: 18px;
