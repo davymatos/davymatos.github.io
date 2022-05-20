@@ -207,6 +207,10 @@ div.box4 p {
     font-size: 18px;
 }
 
+#pub {
+    text-align: right;
+}
+
 .titulo2 {
     font-size: 48px;
     color: rgba(0, 0, 0, 0.6);
@@ -218,12 +222,30 @@ div.box4 p {
 }
 
 
+/*Componentes da Class .skills*/
+
+.titulo3 {
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    cursor: pointer;
+    left: 200px;
+    top: 20px;
+    position: absolute;
+}
+
+.skills {
+    position: absolute;
+    top: 2170px;
+}
+
+
 /*Componentes da Class .fim*/
 
 .fim {
     height: 200px;
     width: 100%;
-    top: 2170px;
+    top: 2470px;
     position: absolute;
 }
 
