@@ -239,13 +239,32 @@ div.box4 p {
     top: 2170px;
 }
 
+.sk {
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    width: 1500px;
+}
+
+.sk1 {
+    position: absolute;
+    top: 440px;
+    left: 300px;
+    width: 1500px;
+}
+
+.imgsk {
+    height: 70px;
+    margin-left: 60px;
+}
+
 
 /*Componentes da Class .fim*/
 
 .fim {
     height: 200px;
     width: 100%;
-    top: 2470px;
+    top: 2770px;
     position: absolute;
 }
 
